@@ -3,112 +3,57 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TVB's Personal Site</title>
+  <title>CCTVB</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Redressed&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <td><img src="images/handsome_guy.jpeg" alt="Handsome guy picture"></td>
-    <td>
-      <h1>CC TVB</h1>
-      <a href="https://www.instagram.com/_drew_van_acker/">Find me on Instagram!</a>
-      <em>
-        <p>Father of three daughters</st>
-        </p>
-      </em>
-      <p>I am a man and have three kids</p>
-    </td>
-  </table>
-  <hr>
-  <h3>Names of daughters</h3>
-  <em>
-    <ul>
-      <li>Athena</li>
-      <li>Aurora</li>
-      <li>Artemis</li>
-    </ul>
-  </em>
-  <hr>
-  <h3>Daughters' info</h3>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>NAME</th>
-        <th>YEAR OF BORN</th>
-        <th>HEIGHT</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Athena</td>
-        <td>2015</td>
-        <td>103cm</td>
-      </tr>
-      <tr>
-        <td>Aurora</td>
-        <td>2018</td>
-        <td>91cm</td>
-      </tr>
-      <tr>
-        <td>Artemis</td>
-        <td>2021</td>
-        <td>77cm</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr>
-  <h3>
-    Skills
-  </h3>
-  <table>
-    <td>
-      <table cellspacing="5">
-        <tr>
-          <td>Eating</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Playing</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      <table cellspacing="5">
-        <tr>
-          <td>Singing</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Dancing</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-      </table>
-    </td>
-  </table>
-  <hr>
-  <br>
-  <a href="daughters.html">Daughters' favourite</a>
-  <br>
+  <div class="top_container">
+    <img class="top_cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm CCTVB.</h1>
+    <h2>a pre-programmer.</h2>
+    <img class="bottom_cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="handsome_img" src="images/handsome_guy.jpeg" alt="handsome-img">
+      <h2>Hello.</h2>
+      <p>I am a youtuber and I love coding and photography.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill_img1" src="images/youtube-kids.png" alt="youtube-icon">
+        <h3 class="">I produce funny interview contents!</h3>
+        <p class="">Stay creative and make people happy, I started my youtube channels in 2016.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill_img2" src="images/photography.png" alt="photography-icon">
+        <h3 class="">Call me video master!</h3>
+        <p class="">From shooting to editing, and from technical to workflow, I know everything about video production!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I like to make friends all around the world.</h3>
+      <p>No matter you want to chat with me or you have questions on my expert field, just send me a text.</p>
+      <button class="btn" type="button" name="email_button">CONTACT ME</button>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.instagram.com/_drew_van_acker/">Instagram</a>
+    <a class="footer-link" href="https://www.youtube.com/c/HIFIVEHK">HIFIVE Channel</a>
+    <a class="footer-link" href="https://www.youtube.com/c/MBPPRODUCE">MBP Channel</a>
+    <p class="credit">© 2022 CCTVB.</p>
+  </div>
 
-  <br>
-  <a href="mailto: silwaltz@outlook.com">Click to send me an Email </a>
-  <p>or fill the below form and I will look for you</p>
-  <form class="" action="mailto: silwaltz@outlook.com" method="post" enctype="text/plain">
-    <label for="">Your Name:</label>
-    <input type="text" name="yourName" value="">
-    <br>
-    <label for="">Your Email:</label>
-    <input type="email" name="yourEmail" value="">
-    <br>
-    <label for="">Your Message:</label>
-    <br>
-    <textarea name="yourMessage" rows="10" cols="30"></textarea>
-    <br>
-    <input type="submit" name="" value="submit">
-    <br>
-  </form>
 </body>
 
 </html>
